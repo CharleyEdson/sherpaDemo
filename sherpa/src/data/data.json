@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Charley Edson",
+      "job": "Web Developer",
+      "retirementAge": 62,
+      "salary": 90000,
+      "assets": {
+        "cash": 10000,
+        "brokerage": 100000,
+        "retirement": 50000
+      },
+      "liabilities": {
+        "creditCard": 5000
+      },
+      "savings": {
+        "June": {
+          "totalSavings": 10000,
+          "savings": 3000,
+          "investments": 7000
+        }
+      },
+      "expenses": {
+        "discretionary": 3000,
+        "nonDiscretionary": 2000
+      },
+      "budget": {
+        "discretionary": {
+          "entertainment": 400,
+          "alcohol": 200
+        }
+      }
+    }
+  ]
+  
