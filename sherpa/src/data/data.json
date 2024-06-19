@@ -28,6 +28,9 @@
         "discretionary": {
           "entertainment": 400,
           "alcohol": 200
+        },
+        "nonDiscretionary": {
+          "housing": 250
         }
       }
     }

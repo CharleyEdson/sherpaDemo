@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Charley Edson",
+      "email": "test@aol.com",
+      "gender": "Male",
+      "birthDate": "6/28/1994",
+      "retirementAge": 64,
+      "salary": 90000,
+      "additionalIncome": {
+        "rentalIncome": 5000,
+        "freelance": 3000
+      },
+      "assets": {
+        "Chase bank": 10000,
+        "Fidelity": 70000,
+        "Morgan Stanley brokerage": 200000,
+        "Morgan Stanley Roth IRA": 50000,
+        "realEstate": 300000
+      },
+      "liabilities": {
+        "mortgage": 150000,
+        "studentLoans": 20000,
+        "creditCardDebt": 5000
+      },
+      "savingsGoals": {
+        "emergencyFund": 20000,
+        "vacation": 5000,
+        "newCar": 30000
+      },
+      "savings": {
+        "June": {
+          "totalSavings": 10000,
+          "savings": 3000,
+          "investments": 7000
+        }
+      },
+      "expenses": {
+        "discretionary": 1560,
+        "nonDiscretionary": 2500
+      },
+      "budget": {
+        "discretionary": {
+          "Eating Out": 400,
+          "Gym": 160,
+          "Entertainment": 160,
+          "Shopping": 200,
+          "Miscellaneous": 500,
+          "Alcohol": 600
+        },
+        "nonDiscretionary": {
+          "housing": 1500,
+          "insurance": 100,
+          "loans": 1500,
+          "transportation": 400,
+          "food": 100,
+          "household": 0,
+          "health": 0
+        }
+      },
+      "investmentPreferences": {
+        "riskTolerance": "moderate",
+        "preferredTypes": ["stocks", "bonds"]
+      },
+      "dependents": 2,
+      "spouseIncome": 50000,
+      "insurancePolicies": {
+        "lifeInsurance": 100000,
+        "healthInsurance": "Family Plan"
+      },
+      "budgetRecommendations": {
+        "House": { "low": 25.00, "high": 35.00 },
+        "Insurance": { "low": 10.00, "high": 25.00 },
+        "Savings": { "low": 0.00, "high": 5.00 },
+        "Investments": { "low": 10.00, "high": 20.00 },
+        "Loans": { "low": 0.00, "high": 5.00 },
+        "Transportation": { "low": 10.00, "high": 15.00 },
+        "Food": { "low": 10.00, "high": 15.00 },
+        "Household": { "low": 5.00, "high": 10.00 },
+        "Health": { "low": 5.00, "high": 10.00 },
+        "Discretionary": { "low": 5.00, "high": 10.00 }
+      }
+    }
+  ]

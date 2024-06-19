@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import userData from '../../data/data.json';
+import userData from '../../data/datav2.json';
 
 interface TableDataItem {
   name: string;
@@ -73,10 +73,21 @@ const DoughnutChartWithTable = () => {
 
   const tableData: Record<string, TableDataItem[]> = {
     'Non-Discretionary': [
-      { name: 'Non-Discretionary', value: user.expenses.nonDiscretionary.toString() }
+      { name: 'Housing', value: user.budget.nonDiscretionary.housing.toString() },
+      { name: 'Insurance', value: user.budget.nonDiscretionary.insurance.toString() },
+      { name: 'Loans', value: user.budget.nonDiscretionary.loans.toString() },
+      { name: 'Transportation', value: user.budget.nonDiscretionary.transportation.toString() },
+      { name: 'Food', value: user.budget.nonDiscretionary.food.toString() },
+      { name: 'Household', value: user.budget.nonDiscretionary.household.toString() },
+      { name: 'Health', value: user.budget.nonDiscretionary.health.toString() }
     ],
     'Discretionary': [
-      { name: 'Discretionary', value: user.expenses.discretionary.toString() }
+      { name: 'Eating Out', value: user.budget.discretionary['Eating Out'].toString() },
+      { name: 'Entertainment', value: user.budget.discretionary.Entertainment.toString() },
+      { name: 'Alcohol', value: user.budget.discretionary.Alcohol.toString() },
+      { name: 'Gym', value: user.budget.discretionary.Gym.toString() },
+      { name: 'Shopping', value: user.budget.discretionary.Shopping.toString() },
+      { name: 'Miscellaneous', value: user.budget.discretionary.Miscellaneous.toString() }
     ],
     'Total Savings': [
       { name: 'Total Savings', value: user.savings.June.totalSavings.toString() }
