@@ -62,28 +62,28 @@ const BarGraph: React.FC = () => {
   const budgetRecommendations = user.budgetRecommendations;
 
   const recommendationLow = [
-    budgetRecommendations.House.low,
-    budgetRecommendations.Insurance.low,
+    budgetRecommendations.housing.low,
+    budgetRecommendations.insurance.low,
     budgetRecommendations.Savings.low,
     budgetRecommendations.Investments.low,
-    budgetRecommendations.Loans.low,
-    budgetRecommendations.Transportation.low,
-    budgetRecommendations.Food.low,
-    budgetRecommendations.Household.low,
-    budgetRecommendations.Health.low,
+    budgetRecommendations.loans.low,
+    budgetRecommendations.transportation.low,
+    budgetRecommendations.food.low,
+    budgetRecommendations.household.low,
+    budgetRecommendations.health.low,
     budgetRecommendations.Discretionary.low
   ].map(percentage => (percentage / 100) * afterTaxMonthlyIncome);
 
   const recommendationHigh = [
-    budgetRecommendations.House.high,
-    budgetRecommendations.Insurance.high,
+    budgetRecommendations.housing.high,
+    budgetRecommendations.insurance.high,
     budgetRecommendations.Savings.high,
     budgetRecommendations.Investments.high,
-    budgetRecommendations.Loans.high,
-    budgetRecommendations.Transportation.high,
-    budgetRecommendations.Food.high,
-    budgetRecommendations.Household.high,
-    budgetRecommendations.Health.high,
+    budgetRecommendations.loans.high,
+    budgetRecommendations.transportation.high,
+    budgetRecommendations.food.high,
+    budgetRecommendations.household.high,
+    budgetRecommendations.health.high,
     budgetRecommendations.Discretionary.high
   ].map(percentage => (percentage / 100) * afterTaxMonthlyIncome);
 

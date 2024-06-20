@@ -68,15 +68,16 @@
         "healthInsurance": "Family Plan"
       },
       "budgetRecommendations": {
-        "House": { "low": 25.00, "high": 35.00 },
-        "Insurance": { "low": 10.00, "high": 25.00 },
+        "NonDiscretionary": {"low": 75.00, "high": 150.00},
+        "housing": { "low": 25.00, "high": 35.00 },
+        "insurance": { "low": 10.00, "high": 25.00 },
         "Savings": { "low": 0.00, "high": 5.00 },
         "Investments": { "low": 10.00, "high": 20.00 },
-        "Loans": { "low": 0.00, "high": 5.00 },
-        "Transportation": { "low": 10.00, "high": 15.00 },
-        "Food": { "low": 10.00, "high": 15.00 },
-        "Household": { "low": 5.00, "high": 10.00 },
-        "Health": { "low": 5.00, "high": 10.00 },
+        "loans": { "low": 0.00, "high": 5.00 },
+        "transportation": { "low": 10.00, "high": 15.00 },
+        "food": { "low": 10.00, "high": 15.00 },
+        "household": { "low": 5.00, "high": 10.00 },
+        "health": { "low": 5.00, "high": 10.00 },
         "Discretionary": { "low": 5.00, "high": 10.00 }
       }
     }

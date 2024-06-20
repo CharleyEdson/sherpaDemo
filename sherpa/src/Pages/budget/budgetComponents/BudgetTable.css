@@ -1,0 +1,5 @@
+table tbody tr:hover td {
+    font-weight: bold;
+    transform: scale(1.05);
+  }
+  
